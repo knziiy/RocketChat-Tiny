@@ -1,0 +1,28 @@
+---
+abstract: 'A Perl module for interfacing with the Rocket Chat API'
+author:
+  - 'Kenji Kubo <knziiy@gmail.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 6.031, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: RocketChat-Tiny
+requires:
+  HTTP::Request: '0'
+  HTTP::Request::Common: '0'
+  JSON: '0'
+  LWP::Protocol::https: '0'
+  LWP::UserAgent: '0'
+  strict: '0'
+  utf8: '0'
+  warnings: '0'
+version: '0.01'
+x_generated_by_perl: v5.38.0
+x_serialization_backend: 'YAML::Tiny version 1.74'
+x_spdx_expression: 'Artistic-1.0-Perl OR GPL-1.0-or-later'
